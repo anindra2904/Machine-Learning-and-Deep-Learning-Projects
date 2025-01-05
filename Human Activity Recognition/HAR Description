@@ -1,0 +1,77 @@
+🤖 Human Activity Recognition Using Deep Learning 🧠
+                                         
+                                                 📜 Project Overview
+
+Human Activity Recognition (HAR) is an important field within Artificial Intelligence that focuses on identifying and
+classifying physical activities based on sensor data. In this project, we employ deep learning techniques,particularly 
+Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN), to detect and classify human activities 
+using pose estimation and related input features. The model aims to accurately identify activities from a series of 
+input frames, making it suitable for real-world applications such as healthcare, fitness tracking, sports analytics, 
+and surveillance.
+HAR is an exciting domain with applications in a variety of sectors. It involves the detection and classification of 
+physical activities, such as walking 🚶, running 🏃, sitting 🪑, or more complex movements like yoga poses🧘. 
+This project uses deep learning models to improve the recognition accuracy and provide fast real-time results.
+
+🧠 CNN and RNN Models
+The primary models used in this project are:
+
+Convolutional Neural Networks (CNN): 
+      CNNs are used for feature extraction from images and video frames 📸.
+They excel in automatically learning spatial hierarchies in visual data, making them ideal for detecting patterns in human poses.
+Recurrent Neural Networks (RNN): 
+      RNNs, particularly Long Short-Term Memory (LSTM) networks, are utilized for temporal sequence modeling ⏳.
+Since human activities are inherently sequential, RNNs capture the temporal dependencies between frames, helping the model 
+recognize and classify dynamic human actions.
+
+The combination of CNNs and RNNs provides a robust solution for classifying human activities by extracting spatial features 
+using CNN and modeling temporal dependencies with RNN, making it a powerful deep learning pipeline 
+
+🔑 Key Features
+Deep Learning Integration: Implements CNN for feature extraction and RNN (LSTM) for temporal sequence modeling 💡.
+
+Pose Estimation: Uses pose estimation techniques 🧍‍♂️ to process raw frames and identify human body joints, 
+                 which are then fed into the deep learning models for activity classification.
+
+Data Preprocessing: Pose data is processed and visualized 📊 using a Jupyter Notebook (Pose_Estimation.ipynb), 
+                    allowing for easy exploration and experimentation.
+
+Model Deployment: The main application script (app.py) is designed for real-time deployment 🚀 and testing.
+
+Model Directory: Contains pre-trained models 🏋️‍♂️ and configuration files for reproducibility and further fine-tuning.
+
+📂 Project Structure
+app.py: The primary Python script for running the HAR application. It loads the trained model and uses it to classify 
+        activities in real-time from input video frames 🎥.
+Pose_Estimation.ipynb: A Jupyter Notebook for data preprocessing and pose estimation 🧑‍💻. It includes visualizations 
+                       and experiments with pose estimation models (such as OpenPose) and prepares the data for the deep learning models.
+model/: Directory containing the saved CNN and RNN models, along with configuration files for reproducibility 🔄.
+.git/: Git repository for version control and project management 📈.
+
+🛠️ Technologies Used
+Deep Learning Framework: TensorFlow (for CNN and RNN models) 🧠.
+Programming Language: Python 🐍.
+Libraries: Streamlit, Numpy, requests, tensorflow, tensorflow hub, cv2, ssl, os, urllib, re, imageio, IPython.
+Pose Estimation: OpenPose or similar libraries 🧑‍🏫 for extracting human body poses from video frames.
+Jupyter Notebook: For experimentation 🧪, data visualization, and model fine-tuning.
+
+🌍 Applications
+This project can be used in several industries to enhance the detection and classification of human activities:
+> Healthcare
+> Sports Analytics
+> Surveillance
+> Fitness Tracking etc..,
+
+🙏 Acknowledgments
+I would like to express my gratitude to the open-source community for providing the tools and libraries that were 
+instrumental in developing this project, including TensorFlow, OpenPose, and Jupyter Notebook. These resources played 
+a vital role in the success of this Human Activity Recognition model.
+
+Thank you to everyone who contributes to the deep learning community, making such advancements possible.
+
+💬 Connect with Me
+Feel free to reach out for collaboration, feedback, or just to connect! 🤝
+
+LinkedIn: linkedin.com/in/anindra-bommisetty-
+Email: anindrabommisetty2904@gmail.com
+
+Looking forward to connecting! 😊
